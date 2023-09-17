@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro de Material Didático</title>
+    <link rel="stylesheet" href="../css/giz.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="../assets/logo-1-removebg-preview.png"
+          alt="logo"
+          width="174"
+          height="50"
+        />
+        <ul class="link-menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../escolares.html">Escolares</a></li>
+          <li><a href="../limpeza.html">Limpeza</a></li>
+          <li><a href="../didatico.html">Didático</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="cadastroGiz">
+        <form>
+          <fieldset>
+            <legend>Cadastro de Giz</legend>
+            <label for="marca">Marca<br /></label>
+
+            <input type="text" name="marca" /><br />
+            <br />
+            <label for="quantidade">Quantidade de Produto<br /></label>
+
+            <input type="number" name="quantidade" min="1" /><br />
+            <br />
+            <label for="estoque">Estoque<br /></label>
+
+            <input type="number" name="estoque" min="0" /><br />
+            <br />
+            <label for="altura">Altura(cm)<br /></label>
+
+            <input type="number" name="altura" min="1" /><br />
+            <br />
+          </fieldset>
+          <br />
+          <button
+            type="button"
+            onclick="alert('Cadastro Efetuado: Giz Salvo!')"
+          >
+            Salvar
+          </button>
+        </form>
+      </section>
+      <section class="itens">
+        <h2>Selecione um item para cadastrar:</h2>
+        <ul>
+          <li>
+            <a href="./livro.html"> Livro </a>
+          </li>
+          <li>
+            <a href="./quandro.html"> Quadro </a>
+          </li>
+          <li>
+            <a href="./apagador.html"> Apagador </a>
+          </li>
+          <li>
+            <a href="./pincel.html"> Pincel </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer id="contato">
+      <ul>
+        <li>contato@mwgestao.com</li>
+        <li>+55 (44) 99999-9999</li>
+        <li>Rua Exemplo, nº 123</li>
+        <li>Maringá - PR</li>
+      </ul>
+      <p>Todos os diretos reservados.</p>
+    </footer>
+  </body>
+</html>

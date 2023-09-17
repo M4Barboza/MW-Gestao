@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edição de Material Escolar</title>
+    <link rel="stylesheet" href="../css/lapis.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="../assets/logo-1-removebg-preview.png"
+          alt="logo"
+          width="174"
+          height="50"
+        />
+        <ul class="link-menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../escolares.html">Escolares</a></li>
+          <li><a href="../limpeza.html">Limpeza</a></li>
+          <li><a href="../didatico.html">Didático</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="cadastroLapis">
+        <form>
+          <fieldset>
+            <legend>Editar Lápis</legend>
+            <label for="marca"> Marca</label>
+            <br />
+            <input type="text" name="marca" value="Faber Castell" /><br />
+            <br />
+            <label for="quantidade"> Quantidade</label>
+            <br />
+            <input type="number" name="quantidade" min="1" value="300" /><br />
+            <br />
+            <label for="altura"> Altura(cm)</label>
+            <br />
+            <input type="number" name="altura" min="1" value="17" /><br />
+            <br />
+            <label for="desenho"> Desenho:</label>
+            <br />
+            <br />
+            <input type="radio" name="desenho" value="Sim" />Sim<br />
+            <input type="radio" name="desenho" value="Não" checked />Não<br />
+          </fieldset>
+          <br />
+          <button
+            type="button"
+            onclick="alert('Cadastro Atualizado: Lápis Salvo!')"
+          >
+            Salvar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer id="contato">
+      <ul>
+        <li>contato@mwgestao.com</li>
+        <li>+55 (44) 99999-9999</li>
+        <li>Rua Exemplo, nº 123</li>
+        <li>Maringá - PR</li>
+      </ul>
+      <p>Todos os diretos reservados.</p>
+    </footer>
+  </body>
+</html>

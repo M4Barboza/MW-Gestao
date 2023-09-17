@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edição de Material Didatico</title>
+
+    <link rel="stylesheet" href="../css/pincel.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="../assets/logo-1-removebg-preview.png"
+          alt="logo"
+          width="174"
+          height="50"
+        />
+        <ul class="link-menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../escolares.html">Escolares</a></li>
+          <li><a href="../limpeza.html">Limpeza</a></li>
+          <li><a href="../didatico.html">Didático</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="cadastroPincel">
+        <form>
+          <fieldset>
+            <legend>Editar Pincel</legend>
+            <label for="marca">Marca<br /></label>
+            <input type="text" name="marca" value="Pilot" /><br />
+            <br />
+            <label for="quantidade">Quantidade<br /></label>
+            <input type="number" name="quantidade" min="1" value="350" /><br />
+            <br />
+            <label for="altura">Altura(cm)<br /></label>
+            <input type="number" name="altura" min="1" value="8" /><br />
+            <br />
+            <label for="cor">Cor<br /></label>
+            <input type="text" name="cor" value="Azul" /><br />
+            <br />
+          </fieldset>
+          <br />
+          <button
+            type="button"
+            onclick="alert('Cadastro Atualizado: Pincel Salvo!')"
+          >
+            Salvar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer id="contato">
+      <ul>
+        <li>contato@mwgestao.com</li>
+        <li>+55 (44) 99999-9999</li>
+        <li>Rua Exemplo, nº 123</li>
+        <li>Maringá - PR</li>
+      </ul>
+      <p>Todos os diretos reservados.</p>
+    </footer>
+  </body>
+</html>

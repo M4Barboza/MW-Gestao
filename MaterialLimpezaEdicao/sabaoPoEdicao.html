@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Editar Material de Limpeza</title>
+    <link rel="stylesheet" href="../css/limpeza.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="../assets/logo-1-removebg-preview.png"
+          alt="logo"
+          width="174"
+          height="50"
+        />
+        <ul class="link-menu">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../escolares.html">Escolares</a></li>
+          <li><a href="../limpeza.html">Limpeza</a></li>
+          <li><a href="../didatico.html">Didático</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="cadastroProdutoLimpeza">
+        <form>
+          <fieldset>
+            <legend>Editar Produto de Limpeza</legend>
+            <label for="Tipo de Produto">Tipo de Produto</label>
+            <select name="produtosTipos">
+              <option value="Selecione o tipo">
+                --Selecione o tipo--
+              </option>
+              <option value="Alvejante">Alvejante</option>
+              <option valeu="Sabão em pó" selected>Sabão em pó</option>
+              <option value="Água sanitária">Água sanitária</option>
+              <option value="Sabão em barra">Sabão em barra</option>
+            </select>
+            <br />
+            <br />
+            <label for="marca">Marca<br /></label>
+            <input type="text" name="marca" value="OMO"/><br />
+            <br />
+            <label for="Quantidade de Produto"
+              >Quantidade de Produto(KG)<br
+            /></label>
+            <input type="number" name="quantidade" min="1" value="1" /><br />
+            <br />
+            <label for="estoque">Estoque:<br /></label>
+            <input type="number" name="estoque" min="0" value="151"/><br />
+            <br />
+          </fieldset>
+          <br />
+          <button
+            type="button"
+            onclick="alert('Cadastro Atualizado: Produto de Limpeza Salvo!')"
+          >
+            Salvar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer id="contato">
+      <ul>
+        <li>contato@mwgestao.com</li>
+        <li>+55 (44) 99999-9999</li>
+        <li>Rua Exemplo, nº 123</li>
+        <li>Maringá - PR</li>
+      </ul>
+      <p>Todos os diretos reservados.</p>
+    </footer>
+  </body>
+</html>
